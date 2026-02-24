@@ -25,26 +25,6 @@ The interpreter:
 
 ------------------------------------------------------------------------
 
-# Language Grammar
-
-The interpreter implements the following grammar:
-
-<prog> ::= <let-in-end> { <let-in-end> }
-
-<let-in-end> ::= let <decl-list> in <type> ( <expr> ) end ;
-
-<decl-list> ::= <decl> { <decl> }
-
-<decl> ::= id : <type> = <expr> ;
-
-<type> ::= int | real
-
-<expr> ::= <term> { + <term> | - <term> }
-         | if <cond> then <expr> else <expr>
-
-
-------------------------------------------------------------------------
-
 # Program Structure
 
 ## Lexer
