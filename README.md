@@ -109,7 +109,7 @@ python3 parser_2918419.py sample2.tiny
 
 Example output:
 
-20 
+20 </n>
 314.16 
 0.25
 
